@@ -1,13 +1,66 @@
-# Statistical Analysis of Consumer Behavior and Risk Perception in Aquatic Product Consumption
-This project investigates the factors influencing consumer behavior in aquatic product consumption using survey data and statistical modeling.
-The study specifically examines how food safety concerns, nutrition awareness, and price sensitivity are associated with purchasing decisions, highlighting the role of risk perception in shaping consumer behavior.
-## Methods Overview
+# Aquaculture Water Quality & Disease Risk Analysis
 
-- Data cleaning and preprocessing using Python (Pandas, NumPy)
-- Exploratory data analysis and visualization (Matplotlib, Seaborn)
-- Statistical modeling using linear regression and logistic regression (Statsmodels)
-## Key Findings
+## 📌 Project Background
+The aquaculture industry in China is rapidly growing, but many farmers face challenges such as poor water quality management, disease outbreaks, and lack of technical knowledge. These issues often lead to significant economic losses.
 
-- Food safety concern shows a negative association with purchase willingness.
-- Nutrition awareness is positively related to consumption behavior.
-- Price sensitivity significantly impacts purchasing decisions.
+This project is based on real-world internship experience at Wuxi Lvshui Zhiyuan Biotechnology Co., Ltd., focusing on improving aquaculture outcomes through water quality monitoring and disease analysis.
+
+---
+
+## 🎯 Objective
+- Analyze key water quality indicators (pH, ammonia, nitrite)
+- Identify factors affecting fish and shrimp health
+- Detect disease risks (e.g., parasites, Vibrio)
+- Provide actionable recommendations to improve yield and profitability
+
+---
+
+## 📊 Data Description
+The dataset includes:
+
+| Variable | Description |
+|----------|------------|
+| pH | Water acidity level |
+| ammonia | Ammonia concentration |
+| nitrite | Nitrite concentration |
+| calcium_magnesium | Mineral content |
+| parasite_presence | Presence of parasites (0/1) |
+| disease_risk | Disease risk level (Low/Medium/High) |
+| species | Fish/shrimp type |
+
+---
+
+## 🔬 Methodology
+- Descriptive statistics
+- Data visualization
+- Correlation analysis
+- Regression analysis
+- Risk classification
+
+---
+
+## 📈 Key Insights
+- High ammonia levels strongly correlate with fish mortality
+- Poor water quality increases disease risk significantly
+- Shrimp farming is more sensitive to environmental changes than fish
+- Proper feeding control reduces toxic buildup
+
+---
+
+## 🛠 Tools & Technologies
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
+
+---
+
+## 🚀 Business Impact
+- Helped farmers reduce losses caused by poor water quality
+- Improved productivity and yield
+- Strengthened farmer relationships through technical support
+
+---
+
+## 📌 Future Work
+- Build predictive models for disease outbreaks
+- Develop real-time monitoring systems
+- Integrate IoT sensors for automated analysis
